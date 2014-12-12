@@ -13,9 +13,8 @@ CACHE:
 {{ site.url }}/apple-touch-icon-precomposed.png
 {{ site.url }}/images/touch/ms-touch-icon-144x144-precomposed.png
 {{ site.url }}/favicon.ico
-{{ site.url }}{{ site.assets.baseurl }}img/artinpocket-organitzadors-barcelona-digital-art-footer.jpg
-{{ site.url }}{{ site.assets.baseurl }}img/oxygen-organitzadors-barcelona-digital-art-footer.jpg
-{{ site.url }}{{ site.assets.baseurl }}img/baner-veure-les-estrelles-jordi-mitja-2014-artinpocket.jpg
+{{ site.url }/images/artinpocket-organitzadors-barcelona-digital-art-footer.jpg
+{{ site.url }}/images/oxygen-organitzadors-barcelona-digital-art-footer.jpg
 {{ site.url }}{{ site.bower_components.baseurl }}google-map/google-map.min.html
 {{ site.url }}{{ site.bower_components.baseurl }}google-apis/google-apis.min.html
 {{ site.url }}{{ site.bower_components.baseurl }}polymer/polymer.html
