@@ -13,7 +13,7 @@ CACHE:
 {{ site.url }}/apple-touch-icon-precomposed.png
 {{ site.url }}/images/touch/ms-touch-icon-144x144-precomposed.png
 {{ site.url }}/favicon.ico
-{{ site.url }/images/artinpocket-organitzadors-barcelona-digital-art-footer.jpg
+{{ site.url }}/images/artinpocket-organitzadors-barcelona-digital-art-footer.jpg
 {{ site.url }}/images/oxygen-organitzadors-barcelona-digital-art-footer.jpg
 {{ site.url }}/images/sid-publicitat-organitzadors-espaisid.jpg
 {{ site.url }}/images/orange-de-angels-estella-acuarela-grayscale-espaisid.jpg
