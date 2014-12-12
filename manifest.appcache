@@ -16,6 +16,8 @@ CACHE:
 {{ site.url }/images/artinpocket-organitzadors-barcelona-digital-art-footer.jpg
 {{ site.url }}/images/oxygen-organitzadors-barcelona-digital-art-footer.jpg
 {{ site.url }}/images/sid-publicitat-organitzadors-espaisid.jpg
+{{ site.url }}/images/orange-de-angels-estella-acuarela-grayscale-espaisid.jpg
+{{ site.url }}/images/acuarela-angels-estella-walk-grayscale-espaisid.jpg
 {{ site.url }}{{ site.bower_components.baseurl }}google-map/google-map.min.html
 {{ site.url }}{{ site.bower_components.baseurl }}google-apis/google-apis.min.html
 {{ site.url }}{{ site.bower_components.baseurl }}polymer/polymer.html
