@@ -37,7 +37,16 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
     
-    <script src="/bower_components/webcomponentsjs/webcomponents.min.js"></script>
+   <script>
+        if ('registerElement' in document
+          && 'createShadowRoot' in HTMLElement.prototype
+          && 'import' in document.createElement('link')
+          && 'content' in document.createElement('template')) {
+          
+        } else {
+          document.write('<script src="/bower_components/webcomponentsjs/webcomponents.js"><\/script>');
+        }
+   </script>
     <link rel="import"
       href="/bower_components/google-map/google-map.min.html">
    <style>
