@@ -8,8 +8,6 @@
 
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
 
-    <link rel="stylesheet" href="{{ "/styles/main.css" | prepend: site.baseurl }}">
-
     <meta name="mobile-web-app-capable" content="yes">
     <link rel="icon" sizes="192x192" href="images/touch/chrome-touch-icon-192x192.png">
 
@@ -22,9 +20,6 @@
 
     <meta name="msapplication-TileImage" content="images/touch/ms-touch-icon-144x144-precomposed.png">
     <meta name="msapplication-TileColor" content="#ffffff">
-
-    <link href="{{ "/font-awesome/css/font-awesome.min.css" | prepend: site.baseurl }}" rel="stylesheet" type="text/css">
-    <link href="{{ "/font-artinpocket/dist/stylesheet.min.css" | prepend: site.baseurl }}" rel="stylesheet" type="text/css">
 
   	<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   	<link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
@@ -47,13 +42,7 @@
           document.write('<script src="/bower_components/webcomponentsjs/webcomponents.js"><\/script>');
         }
    </script>
-    <link rel="import"
-      href="/bower_components/google-map/google-map.min.html">
-   <style>
-     google-map {
-        display: block;
-        height: 30em;
-      }
-    </style>
+
+   {% include js-css.html %}
 
 </head>
