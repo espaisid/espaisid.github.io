@@ -270,7 +270,27 @@ a:focus {
     -o-background-size: cover;
 }
 
-.download-bg {
+.filosofia-section {
+    width: 100%;
+    color: #fff;
+    background: url(/images/espaisid-equip-vista-superior.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.footer-section {
+    width: 100%;
+    color: #fff;
+    background: url(/images/espaisid-equip-vista-lateral-esquerra.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.purple-bg {
 	background-color: rgba(229,0,126,.5);
     padding: 50px 0;
 }
@@ -286,7 +306,7 @@ a:focus {
         padding-bottom: 20rem;
     }
 
-    .download-bg {
+    .purple-bg {
         padding: 100px 0;
     }
 }
