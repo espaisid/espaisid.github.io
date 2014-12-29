@@ -28,6 +28,9 @@ author:
 markdown: kramdown
 
 #Custom vars
+portfoli-author:
+ name: "#EspaiSid"
+ url: http://www.espaisid.com/
 organitza:
   artinpocket:
     description:  "Artinpocket - organitzadors d'#espaisid"

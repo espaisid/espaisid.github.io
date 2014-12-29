@@ -1,0 +1,26 @@
+---
+ -
+  name: "Mostra d’Art digital"
+  id: 1
+  featured-img: "1-st-simultaneous-digital-art-show-flyer.jpg"
+  external-url: "http://www.digitalartbarcelona.com/"
+  short-description: "La Iª Mostra simultània d’art digital de Barcelona es presenta com una exposició
+simultània en diferents espais i edificis de referència de la ciutat."
+ -
+  name: "Creació Tipografia Artinpocket"
+  id: 2
+  featured-img: "la-tipografia-constructiva-per-a-titulars-d-artinpocket-ja-esta-disponible.jpg"
+  external-url: "http://www.artinpocketregular.com/"
+  short-description: "El projecte Artinpocket Regular va néixer amb l’objectiu de desenvolupar, una tipografia pròpia i adequada per al món de les arts plàstiques i visuals."
+ -
+  name: "Top Sports High Spirits Museu Olímpic de Lausanne (Suïssa)"
+  id: 3
+  featured-img: "top-sports-high-spirits-expo-espaisid.jpg"
+  external-url: 
+  short-description: "Projecte encarregat per The World Games Association, al Museu Olímpic de Lausanne per a promocionar Els World Games del 2009 a la ciutat de Kaohsiung (Taipei)."
+ -
+  name: "DREAMINGS Circuit de Motegui (Japó)"
+  id: 4
+  featured-img: "dreamings-circuit-de-motegui-japo-espaisid.jpg"
+  external-url: 
+  short-description: "Projecte encarregat per Haute-Voltige per a complementar en les pantalles gegants del circuit de Motegui (Japó) l’espectacle aeri “Dreamings”."
