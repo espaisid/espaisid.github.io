@@ -20,7 +20,7 @@
     <meta name="twitter:site" content="@{{ site.twitter }}">
     <meta name="twitter:creator" content="@{% if page.twitter-username %}{{ page.twitter-username }}{% else %}{{ site.twitter }}{% endif %}">
     <meta name="twitter:title" content="{{ page.title }}">
-    <meta name="twitter:description" content="{{ work.description | strip_html }}">
+    <meta name="twitter:description" content="{{ work.short-description | strip_html }}">
     <meta name="twitter:image:src" content="/images/{{ work.featured-img }}">
     {% endif %}
 
