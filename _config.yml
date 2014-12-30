@@ -16,6 +16,7 @@ baseurl:
 url: "http://www.espaisid.com" 
 twitter_username: freecates
 github_username:  freecates
+twitter:          artinpocket
 
 sass:
  style: compressed

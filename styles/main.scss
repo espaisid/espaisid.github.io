@@ -140,6 +140,8 @@ a:focus {
 
 .container {
   max-width: 28rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 @media (min-width: 38rem) {
   .container {
@@ -312,6 +314,7 @@ figure{
   background-color: rgba(250,230,20,1);
   padding: 1em;
   margin: .25rem -1rem;
+  color: #000000;
 }
 figure img {
   display: inline;
@@ -475,6 +478,11 @@ figure img {
 .purple-bg {
 	background-color: rgba(229,0,126,.5);
     padding: 50px 0;
+}
+
+.purple-bg__full {
+  background-color: rgba(229,0,126,1);
+  color: #ffffff;
 }
 
 .yellow-bg {

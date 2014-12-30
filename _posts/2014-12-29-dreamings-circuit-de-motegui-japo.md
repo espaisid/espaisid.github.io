@@ -24,6 +24,4 @@ work: 4
 
 <!--more-->
 
-La Iª Mostra simultània d’art digital de Barcelona es presenta com una exposició simultània en diferents espais i edificis de referència de la ciutat. L’objectiu d’aquesta mostra es oferir al públic la possibilitat de descobrir i gaudir de l’art digital fora dels circuits expositius tradicionals. Oci, cultura i patrimoni es fusionen per oferir una experiència entorn l’Art Digital.
-
-La finalitat d’aquesta mostra es divulgar la disciplina artística digital alhora que projectar i promocionar el treball de diferents artistes. Per aquesta finalitat s’han escollit nous espais i formats expositius. Artinpocket conjuntament amb el Convent de Sant Agustí i amb la col·laboració de IDODI i Blanz, han reunit més de 20 creadors d’art digital per realitzar aquesta primera exhibició.
+Projecte encarregat per Haute-Voltige per a complementar en les pantalles gegants del circuit de Motegui (Japó) l’espectacle aeri “Dreamings”. L’encàrrec consistia en il·lustrar una serie d’escenes basades en l’argument del músical, que es podia seguir simultàniament, tan a l’aire on un equip d’avions acrobàtics desenvolupava l’acció com a les pantalles gegants del circuit.

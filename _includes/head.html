@@ -8,6 +8,22 @@
 
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
 
+    {% if page.og %}
+    <meta property="og:title" content="{{ page.title }}" />
+    <meta property="og:type" content="{{ page.og-type }}" />
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+    {% assign work_data = site.data.portfoli | where:"id", page.work %}
+    {% assign work = work_data | first %}
+    <meta property="og:image" content="/images/{{ work.featured-img }}" />
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@{{ site.twitter }}">
+    <meta name="twitter:creator" content="@{% if page.twitter-username %}{{ page.twitter-username }}{% else %}{{ site.twitter }}{% endif %}">
+    <meta name="twitter:title" content="{{ page.title }}">
+    <meta name="twitter:description" content="{{ work.description | strip_html }}">
+    <meta name="twitter:image:src" content="/images/{{ work.featured-img }}">
+    {% endif %}
+
     <meta name="mobile-web-app-capable" content="yes">
     <link rel="icon" sizes="192x192" href="images/touch/chrome-touch-icon-192x192.png">
 
