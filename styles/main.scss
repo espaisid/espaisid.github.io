@@ -58,6 +58,10 @@ a {
     transition: all .2s ease-in-out;
 }
 
+img {
+  max-width: 100%;
+}
+
 a:hover,
 a:focus {
     text-decoration: none;
@@ -156,7 +160,7 @@ only screen and (        min-device-pixel-ratio: 2)      and (min-width: 38rem),
 only screen and (                min-resolution: 192dpi) and (min-width: 38rem),
 only screen and (                min-resolution: 2dppx)  and (min-width: 38rem) {
   .container {
-    max-width: 34rem;
+    max-width: 35rem;
   }
 }
 @media (min-width: 56rem) {
@@ -172,7 +176,7 @@ only screen and (        min-device-pixel-ratio: 2)      and (min-width: 56rem),
 only screen and (                min-resolution: 192dpi) and (min-width: 56rem),
 only screen and (                min-resolution: 2dppx)  and (min-width: 56rem) {
   .container {
-    max-width: 48rem;
+    max-width: 49rem;
   }
 }
 @media (min-width: 68rem) {
@@ -188,7 +192,7 @@ only screen and (        min-device-pixel-ratio: 2)      and (min-width: 68rem),
 only screen and (                min-resolution: 192dpi) and (min-width: 68rem),
 only screen and (                min-resolution: 2dppx)  and (min-width: 68rem) {
   body.mur .container, body.mur-diari .container, body.artwork .container, .container.donatius {
-    max-width: 58rem;
+    max-width: 59rem;
   }
 }
 
