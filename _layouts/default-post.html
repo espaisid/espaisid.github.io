@@ -7,7 +7,7 @@ layout: compress
 
 {% include head.html %}
 
-<body unresolved id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+<body unresolved id="page-top" data-spy="scroll" data-target=".navbar-fixed-top" {% if page.class == 'artwork' %}class="artwork"{% endif %}>
 
     {% include header-post.html %}
     <section id="portfoli" class="content-section text-center purple-bg__full">

@@ -4,6 +4,7 @@ og: true
 og-type: article
 title: "DREAMINGS Circuit de Motegui (Japó)" 
 share: true
+class: artwork
 categories:
   - portfoli
 work: 4

@@ -4,6 +4,7 @@ og: true
 og-type: article
 title: "Creació tipografia Artinpocket" 
 share: true
+class: artwork
 categories:
   - portfoli
 work: 2

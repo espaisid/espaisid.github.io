@@ -4,6 +4,7 @@ og: true
 og-type: article
 title: "Top Sports High Spirits Museu Olímpic de Lausanne (Suïssa)" 
 share: true
+class: artwork
 categories:
   - portfoli
 work: 3

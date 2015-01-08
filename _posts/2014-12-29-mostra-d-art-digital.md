@@ -4,6 +4,7 @@ og: true
 og-type: article
 title: "Mostra d’Art digital" 
 share: true
+class: artwork
 categories:
   - portfoli
 work: 1
