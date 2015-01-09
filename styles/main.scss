@@ -147,62 +147,18 @@ a:focus {
   padding-left: 1rem;
   padding-right: 1rem;
 }
-@media
-only screen and (-webkit-min-device-pixel-ratio: 2),
-only screen and (   min--moz-device-pixel-ratio: 2),
-only screen and (     -o-min-device-pixel-ratio: 2/1),
-only screen and (        min-device-pixel-ratio: 2),
-only screen and (                min-resolution: 192dpi),
-only screen and (                min-resolution: 2dppx) {
-  .container {
-  padding-left: 0;
-  padding-right: 0;
-  }
-}
+
 @media (min-width: 38rem) {
-  .container {
-    max-width: 34rem;
-  }
-}
-@media
-only screen and (-webkit-min-device-pixel-ratio: 2)      and (min-width: 38rem),
-only screen and (   min--moz-device-pixel-ratio: 2)      and (min-width: 38rem),
-only screen and (     -o-min-device-pixel-ratio: 2/1)    and (min-width: 38rem),
-only screen and (        min-device-pixel-ratio: 2)      and (min-width: 38rem),
-only screen and (                min-resolution: 192dpi) and (min-width: 38rem),
-only screen and (                min-resolution: 2dppx)  and (min-width: 38rem) {
   .container {
     max-width: 35rem;
   }
 }
 @media (min-width: 56rem) {
   .container {
-    max-width: 48rem;
-  }
-}
-@media
-only screen and (-webkit-min-device-pixel-ratio: 2)      and (min-width: 56rem),
-only screen and (   min--moz-device-pixel-ratio: 2)      and (min-width: 56rem),
-only screen and (     -o-min-device-pixel-ratio: 2/1)    and (min-width: 56rem),
-only screen and (        min-device-pixel-ratio: 2)      and (min-width: 56rem),
-only screen and (                min-resolution: 192dpi) and (min-width: 56rem),
-only screen and (                min-resolution: 2dppx)  and (min-width: 56rem) {
-  .container {
     max-width: 49rem;
   }
 }
 @media (min-width: 68rem) {
-  body.mur .container, body.mur-diari .container, body.artwork .container, .container.donatius {
-    max-width: 58rem;
-  }
-}
-@media
-only screen and (-webkit-min-device-pixel-ratio: 2)      and (min-width: 68rem),
-only screen and (   min--moz-device-pixel-ratio: 2)      and (min-width: 68rem),
-only screen and (     -o-min-device-pixel-ratio: 2/1)    and (min-width: 68rem),
-only screen and (        min-device-pixel-ratio: 2)      and (min-width: 68rem),
-only screen and (                min-resolution: 192dpi) and (min-width: 68rem),
-only screen and (                min-resolution: 2dppx)  and (min-width: 68rem) {
   body.mur .container, body.mur-diari .container, body.artwork .container, .container.donatius {
     max-width: 59rem;
   }
@@ -432,38 +388,6 @@ figure img {
     font-size: 3rem;
   }
 }
-@media
-only screen and (-webkit-min-device-pixel-ratio: 2)      and (min-width: 38rem),
-only screen and (   min--moz-device-pixel-ratio: 2)      and (min-width: 38rem),
-only screen and (     -o-min-device-pixel-ratio: 2/1)    and (min-width: 38rem),
-only screen and (        min-device-pixel-ratio: 2)      and (min-width: 38rem),
-only screen and (                min-resolution: 192dpi) and (min-width: 38rem),
-only screen and (                min-resolution: 2dppx)  and (min-width: 38rem) {
-  body.mur-diari .post {
-    width: 14rem;
-    float:left;
-    margin: .25rem;
-  }
-  body.mur-diari .post:nth-child(2n+1) {
-    clear:both;
-  }  
-  h1, figure {
-    margin-left: -2rem;
-  }
-  figure {
-    margin: inherit;
-  }
-  body.mur-diari .post figure {
-    margin-left: 0;
-    margin-right: 0;
-  }
-  body.mur-diari footer.related {
-    clear: both;
-  }
-  h1 {
-    font-size: 3rem;
-  }
-}
 @media (min-width: 56rem) {
   body.mur-diari .post {
     width: 17rem;
@@ -476,47 +400,7 @@ only screen and (                min-resolution: 2dppx)  and (min-width: 38rem) 
     font-size: 4rem;
   }
 }
-@media
-only screen and (-webkit-min-device-pixel-ratio: 2)      and (min-width: 56rem),
-only screen and (   min--moz-device-pixel-ratio: 2)      and (min-width: 56rem),
-only screen and (     -o-min-device-pixel-ratio: 2/1)    and (min-width: 56rem),
-only screen and (        min-device-pixel-ratio: 2)      and (min-width: 56rem),
-only screen and (                min-resolution: 192dpi) and (min-width: 56rem),
-only screen and (                min-resolution: 2dppx)  and (min-width: 56rem) {
-  body.mur-diari .post {
-    width: 17rem;
-  }
-  h1, figure {
-    margin-left: -2rem;
-    margin-right: -2rem;
-  }
-  h1 {
-    font-size: 4rem;
-  }
-}
 @media (min-width: 68rem) {
-  body.mur-diari .post {
-    width: 18rem;
-    float:left;
-    margin: .25rem;
-  }
-  body.mur-diari .post:nth-child(2n+1) {
-    clear:none;
-  }
-  body.mur-diari .post:nth-child(3n+1) {
-    clear:both;
-  }
-  h1, figure {
-    margin-left: -4rem;
-  }
-}
-@media
-only screen and (-webkit-min-device-pixel-ratio: 2)      and (min-width: 68rem),
-only screen and (   min--moz-device-pixel-ratio: 2)      and (min-width: 68rem),
-only screen and (     -o-min-device-pixel-ratio: 2/1)    and (min-width: 68rem),
-only screen and (        min-device-pixel-ratio: 2)      and (min-width: 68rem),
-only screen and (                min-resolution: 192dpi) and (min-width: 68rem),
-only screen and (                min-resolution: 2dppx)  and (min-width: 68rem) {
   body.mur-diari .post {
     width: 18rem;
     float:left;
