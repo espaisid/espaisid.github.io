@@ -3,7 +3,7 @@ layout: compress
 ---
 
 <!DOCTYPE html>
-<html lang="ca">
+<html manifest="{{ site.url }}/manifest.appcache" lang="ca">
 
 {% include head.html %}
 
@@ -20,8 +20,6 @@ layout: compress
     {% include footer.html %}
     {% include aside.html %}
     {% include modals.html %}
-    <div id="status"></div>
-    {% include service-worker.min.html %}
 
 </body>
 
