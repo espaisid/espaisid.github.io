@@ -25,4 +25,4 @@ work: 4
 
 <!--more-->
 
-Projecte encarregat per Haute-Voltige per a complementar en les pantalles gegants del circuit de Motegui (Japó) l’espectacle aeri “Dreamings”. L’encàrrec consistia en il·lustrar una serie d’escenes basades en l’argument del músical, que es podia seguir simultàniament, tan a l’aire on un equip d’avions acrobàtics desenvolupava l’acció com a les pantalles gegants del circuit.
+Projecte encarregat per Haute-Voltige per a complementar en les pantalles gegants del circuit de Motegui (Japó) l'espectacle aeri “Dreamings”. L'encàrrec consistia en il·lustrar una serie d'escenes basades en l'argument del músical, que es podia seguir simultàniament, tan a l'aire on un equip d'avions acrobàtics desenvolupava l'acció com a les pantalles gegants del circuit.

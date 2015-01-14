@@ -1,0 +1,29 @@
+{% for portfoli in site.data.portfoli %}
+    <div class="portfolio-modal modal fade" id="portfolioModal-{{ portfoli.id }}" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content content-section text-center purple-bg__full">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+              <div class="modal-body">
+                  <h1>{{ portfoli.name }}</h1>
+                  <figure>
+                    <div class="padding-artwork-container">
+                      <div class="embed-container embed-container_4-3">
+                        <core-image sizing="cover" class="core-image-size" preload fade src="/images/{{ portfoli.featured-img }}"></core-image> 
+                      </div>
+                    </div>
+                    <figcaption>
+                      <p>{% if portfoli.external-url %}<a href="{{ portfoli.external-url }}"><small><i class="fa fa-external-link"></i> <strong>{{ portfoli.name }}</strong></small></a>{% else if %}<small><strong>{{ portfoli.name }}</strong></small>{% endif %}</p>
+                    </figcaption>
+                  </figure>
+                  {{ portfoli.long-description }}
+                  <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Tancar</button>
+              </div>
+            </div>
+        </div>
+    </div>
+{% endfor %}
