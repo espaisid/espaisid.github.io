@@ -1,8 +1,4 @@
 <script>
-      function showFilesList() {
-        document.querySelector('#files').style.display = 'block';
-      }
-
       // Helper function which returns a promise which resolves once the service worker registration
       // is past the "installing" state.
       function waitUntilInstalled(registration) {
@@ -30,7 +26,6 @@
       if ('serviceWorker' in navigator) {
         navigator.serviceWorker.register('/scripts/service-worker.js', {scope: './'})
           .then(waitUntilInstalled)
-          .then(showFilesList)
           .catch(function(error) {
             // Something went wrong during registration. The service-worker.js file
             // might be unavailable or contain a syntax error.
