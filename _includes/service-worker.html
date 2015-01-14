@@ -24,7 +24,7 @@
       }
 
       if ('serviceWorker' in navigator) {
-        navigator.serviceWorker.register('/scripts/service-worker.js', {scope: './'})
+        navigator.serviceWorker.register('/scripts/service-worker.js')
           .then(waitUntilInstalled)
           .catch(function(error) {
             // Something went wrong during registration. The service-worker.js file
