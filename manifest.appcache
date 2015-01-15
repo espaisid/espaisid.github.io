@@ -19,14 +19,14 @@ CACHE:
 /images/facana-espai-sid.jpg
 /images/orange-de-angels-estella-acuarela-grayscale-espaisid.jpg
 /images/acuarela-angels-estella-walk-grayscale-espaisid.jpg
-/google-map/google-map.min.html
-/core-image/core-image.min.html
-/google-apis/google-apis.min.html
-/polymer/polymer.html
-/polymer/layout.min.html
-/polymer/polymer.min.js
-/webcomponentsjs/webcomponents.min.js
-/appcache-autoupdate/appcache-nanny.js
+{{ site.bower_components.baseurl }}google-map/google-map.min.html
+{{ site.bower_components.baseurl }}core-image/core-image.min.html
+{{ site.bower_components.baseurl }}google-apis/google-apis.min.html
+{{ site.bower_components.baseurl }}polymer/polymer.html
+{{ site.bower_components.baseurl }}polymer/layout.min.html
+{{ site.bower_components.baseurl }}polymer/polymer.min.js
+{{ site.bower_components.baseurl }}webcomponentsjs/webcomponents.min.js
+{{ site.bower_components.baseurl }}appcache-autoupdate/appcache-nanny.js
 /scripts/jquery-1.11.0.min.js
 /scripts/bootstrap.min.js
 /scripts/jquery.easing.min.js
