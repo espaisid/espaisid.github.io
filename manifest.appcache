@@ -5,37 +5,37 @@ CACHE MANIFEST
 # rev {{ site.time }}
 
 CACHE:
-{{ site.url }}/styles/main.css
-{{ site.url }}/font-awesome/css/font-awesome.min.css
-{{ site.url }}/font-artinpocket/dist/stylesheet.min.css
-{{ site.url }}/feed.xml
-{{ site.url }}/images/touch/chrome-touch-icon-192x192.png
-{{ site.url }}/apple-touch-icon-precomposed.png
-{{ site.url }}/images/touch/ms-touch-icon-144x144-precomposed.png
-{{ site.url }}/favicon.ico
-{{ site.url }}/images/artinpocket-organitzadors-barcelona-digital-art-footer.jpg
-{{ site.url }}/images/oxygen-organitzadors-barcelona-digital-art-footer.jpg
-{{ site.url }}/images/sid-publicitat-organitzadors-espaisid.jpg
-{{ site.url }}/images/facana-espai-sid.jpg
-{{ site.url }}/images/orange-de-angels-estella-acuarela-grayscale-espaisid.jpg
-{{ site.url }}/images/acuarela-angels-estella-walk-grayscale-espaisid.jpg
-{{ site.url }}{{ site.bower_components.baseurl }}google-map/google-map.min.html
-{{ site.url }}{{ site.bower_components.baseurl }}core-image/core-image.min.html
-{{ site.url }}{{ site.bower_components.baseurl }}google-apis/google-apis.min.html
-{{ site.url }}{{ site.bower_components.baseurl }}polymer/polymer.html
-{{ site.url }}{{ site.bower_components.baseurl }}polymer/layout.min.html
-{{ site.url }}{{ site.bower_components.baseurl }}polymer/polymer.min.js
-{{ site.url }}{{ site.bower_components.baseurl }}webcomponentsjs/webcomponents.min.js
-{{ site.url }}{{ site.bower_components.baseurl }}appcache-autoupdate/appcache-nanny.js
-{{ site.url }}/scripts/jquery-1.11.0.min.js
-{{ site.url }}/scripts/bootstrap.min.js
-{{ site.url }}/scripts/jquery.easing.min.js
-{{ site.url }}/scripts/grayscale.min.js
+/styles/main.css
+/font-awesome/css/font-awesome.min.css
+/font-artinpocket/dist/stylesheet.min.css
+/feed.xml
+/images/touch/chrome-touch-icon-192x192.png
+/apple-touch-icon-precomposed.png
+/images/touch/ms-touch-icon-144x144-precomposed.png
+/favicon.ico
+/images/artinpocket-organitzadors-barcelona-digital-art-footer.jpg
+/images/oxygen-organitzadors-barcelona-digital-art-footer.jpg
+/images/sid-publicitat-organitzadors-espaisid.jpg
+/images/facana-espai-sid.jpg
+/images/orange-de-angels-estella-acuarela-grayscale-espaisid.jpg
+/images/acuarela-angels-estella-walk-grayscale-espaisid.jpg
+/google-map/google-map.min.html
+/core-image/core-image.min.html
+/google-apis/google-apis.min.html
+/polymer/polymer.html
+/polymer/layout.min.html
+/polymer/polymer.min.js
+/webcomponentsjs/webcomponents.min.js
+/appcache-autoupdate/appcache-nanny.js
+/scripts/jquery-1.11.0.min.js
+/scripts/bootstrap.min.js
+/scripts/jquery.easing.min.js
+/scripts/grayscale.min.js
 
 
-{% for page in site.pages %}{% if page.url != '/manifest.appcache' and page.url != '/404.html' %}{{ site.url }}{{ page.url }}{% endif %}
+{% for page in site.pages %}{% if page.url != '/manifest.appcache' and page.url != '/404.html' %}{{ page.url }}{% endif %}
 {% endfor %}
-{% for post in site.posts %}{% if post.url != '/manifest.appcache' and post.url != '/404.html' %}{{ site.url }}{{ post.url }}{% endif %}
+{% for post in site.posts %}{% if post.url != '/manifest.appcache' and post.url != '/404.html' %}{{ post.url }}{% endif %}
 {% endfor %}
 
 NETWORK:
