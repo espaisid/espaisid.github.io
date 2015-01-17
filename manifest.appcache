@@ -26,7 +26,7 @@ CACHE:
 {{ site.url }}{{ site.bower_components.baseurl }}polymer/layout.min.html
 {{ site.url }}{{ site.bower_components.baseurl }}polymer/polymer.min.js
 {{ site.url }}{{ site.bower_components.baseurl }}webcomponentsjs/webcomponents.min.js
-{{ site.url }}{{ site.bower_components.baseurl }}appcache-autoupdate/appcache-nanny.js
+{{ site.url }}{{ site.bower_components.baseurl }}appcache-autoupdate/appcache-nanny.min.js
 {{ site.url }}/scripts/jquery-1.11.0.min.js
 {{ site.url }}/scripts/bootstrap.min.js
 {{ site.url }}/scripts/jquery.easing.min.js
