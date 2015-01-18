@@ -1,0 +1,8 @@
+{ "@context" : "http://schema.org",
+  "@type" : "Organization",
+  "name" : "#EspaiSid - un projecte per compartir idees, dialogar sobre art i inspirar i desenvolupar projectes de creació artística",
+  "url" : "https://www.espaisid.com/",
+  "sameAs" : [ "https://www.facebook.com/artinpocket.digital.art",
+    "https://www.twitter.com/artinpocket",
+    "https://plus.google.com/110343213762062165287"] 
+}
