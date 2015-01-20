@@ -31,6 +31,8 @@ CACHE:
 {{ site.url }}/scripts/bootstrap.min.js
 {{ site.url }}/scripts/jquery.easing.min.js
 {{ site.url }}/scripts/grayscale.min.js
+{{ site.url }}/vendor/add-to-homescreen/addtohomescreen.min.js
+{{ site.url }}/vendor/add-to-homescreen/addtohomescreen.min.css
 
 
 {% for page in site.pages %}{% if page.url != '/manifest.appcache' and page.url != '/404.html' and page.url != '/styles/main.css' %}{{ site.url }}{{ page.url }}{% endif %}
