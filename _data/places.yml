@@ -15,6 +15,7 @@
   facebook:	
   phone: '0034937486090'
   email: info@espaisid.com
+  getdirections: 'https://www.google.cat/maps/dir//Carrer+Pous+i+Pag%C3%A8s,+10,+17600+Figueres,+Girona,+Espanya/'
   latitude: 42.2556224
   longitude: 2.9675415
   id: 2
