@@ -5,8 +5,8 @@ importScripts('/bower_components/cache-polyfill/dist/serviceworker-cache-polyfil
 // The SW will be shutdown when not in use to save memory,
 // be aware that any global state is likely to disappear
 
-var DEFAULT_CACHE = 'espaisid-app-cache3';
-var AIP_CACHE = 'espaisid-aip-cache3';
+var DEFAULT_CACHE = 'espaisid-app-cache{{ site.time | date_to_xmlschema }}';
+var AIP_CACHE = 'espaisid-aip-cache{{ site.time | date_to_xmlschema }}';
 
 console.log('SW startup', DEFAULT_CACHE);
 
