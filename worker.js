@@ -33,6 +33,7 @@ self.addEventListener('install', function(event) {
         '/images/touch/ms-touch-icon-144x144-precomposed.png',
         '/favicon.ico',
         '/images/artinpocket-organitzadors-barcelona-digital-art-footer.jpg',
+        '/images/acte-presentacio-espai-sid-20150516.png',
         '/images/oxygen-organitzadors-barcelona-digital-art-footer.jpg',
         '/images/sid-publicitat-organitzadors-espaisid.jpg',
         '/images/facana-espai-sid.jpg',
