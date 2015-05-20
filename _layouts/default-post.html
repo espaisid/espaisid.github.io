@@ -3,14 +3,14 @@ layout: compress
 ---
 
 <!DOCTYPE html>
-<html manifest="{{ site.url }}/manifest.appcache" lang="ca">
+<html lang="ca">
 
 {% include head.html %}
 
-<body unresolved id="page-top" data-spy="scroll" data-target=".navbar-fixed-top" {% if page.class == 'artwork' %}class="artwork"{% endif %}>
+<body unresolved id="page-top" data-spy="scroll" data-target=".navbar-fixed-top" {% if page.class == 'artwork' %}class="artwork"{% endif %} {% if page.category == 'mur-diari' %}class="mur-diari"{% endif %}>
 
     {% include header-post.html %}
-    <section id="portfoli" class="content-section text-center purple-bg__full">
+    <section id="portfoli" class="content-section {% if page.categories contains 'portfoli' %}text-center{% endif %} purple-bg__full">
     	<div class="container">
         {{ content }}
         </div>

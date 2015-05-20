@@ -1,0 +1,14 @@
+---
+ -
+  name: "Mostra inaugural"
+  id: 1
+  featured-img: "02-mostra-inaugural-espai-sid.jpg"
+  aspect-ratio: "16-9"
+  images:
+   - 01-mostra-inaugural-espai-sid.jpg
+   - 03-mostra-inaugural-espai-sid.jpg
+   - 04-mostra-inaugural-espai-sid.jpg
+   - 05-mostra-inaugural-espai-sid.jpg
+   - 06-mostra-inaugural-espai-sid.jpg
+  short-description: "Mostra inaugural, amb la participació artística de Maria Bartrons, Alba Danés, La Wäwä, Xevi Masmitjà, Roger Serrat-Calvó i Mònica Quintana"
+  long-description: "<p>Fab Labs, nous mitjans i la generació de codi obert consistí d’una introducció a l’escaneig i impressió 3D i les seves aplicacions en la producció i en la creació artística. Es va aprendre com funciona la tecnologia d’impressió 3D, els diferents projectes i màquines que existeixen i quina d’elles és la més adequada per a cada projecte.</p>\n"
