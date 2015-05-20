@@ -5,10 +5,9 @@ category: mur-diari
 ---
 
 <div class="posts clearfix">
-  <h2><span class='light'>#Exposicions</span>SID</h2>
-  {% for post in site.categories['exposicionssid'] limit:3 %}
+  {% for post in site.categories['exposicionssid'] limit:4 %}
   <div class="post">
-
+  <h2><span class='light'>#Exposicions</span>SID</h2>
     {{ post.excerpt }}    
 
   <h2 class="post-title">
@@ -19,12 +18,9 @@ category: mur-diari
     <p class="text-center"><a href="{{ post.url }}"><i class="fa fa-lg fa-plus-square-o"></i></a></p>
     </div>
   {% endfor %}
-</div>
----
-<div class="posts clearfix">
-  <h2><span class='light'>#Càpsules</span>SID</h2>
-  {% for post in site.categories['capsulessid'] limit:3 %}
+  {% for post in site.categories['capsulessid'] limit:4 %}
   <div class="post">
+  <h2><span class='light'>#Càpsules</span>SID</h2>
 
     {{ post.excerpt }}    
 
