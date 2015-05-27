@@ -21,7 +21,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@{{ site.twitter }}">
     <meta name="twitter:creator" content="@{% if page.twitter-username %}{{ page.twitter-username }}{% else %}{{ site.twitter }}{% endif %}">
-    <meta name="twitter:title" content="{{ page.title }}">
+    <meta name="twitter:title" content="{{ page.title | strip_html }}">
     <meta name="twitter:description" content="{{ work.short-description | strip_html }}">
     <meta name="twitter:image:src" content="{{ site.url }}/images/{{ work.featured-img }}">
     {% endif %}
@@ -34,7 +34,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@{{ site.twitter }}">
     <meta name="twitter:creator" content="@{% if page.twitter-username %}{{ page.twitter-username }}{% else %}{{ site.twitter }}{% endif %}">
-    <meta name="twitter:title" content="{{ page.title }}">
+    <meta name="twitter:title" content="{{ page.title | strip_html }}">
     <meta name="twitter:description" content="{{ expo.short-description | strip_html }}">
     <meta name="twitter:image:src" content="{{ site.url }}/images/exposicions/{{ expo.featured-img }}">
     {% endif %}
@@ -47,9 +47,22 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@{{ site.twitter }}">
     <meta name="twitter:creator" content="@{% if page.twitter-username %}{{ page.twitter-username }}{% else %}{{ site.twitter }}{% endif %}">
-    <meta name="twitter:title" content="{{ page.title }}">
+    <meta name="twitter:title" content="{{ page.title | strip_html }}">
     <meta name="twitter:description" content="{{ capsula.short-description | strip_html }}">
     <meta name="twitter:image:src" content="{{ site.url }}/images/capsules/{{ capsula.featured-img }}">
+    {% endif %}
+    {% if page.categories contains 'noticiessid' %}
+    {% assign news_data = site.data.activitats.noticies | where:"id", page.news %}
+    {% assign news = news_data | first %}
+    <meta property="og:image" content="{{ site.url }}/images/noticies/{{ news.featured-img }}" />
+    <meta property="og:description" content="{{ news.long_description | strip_html }}" />
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@{{ site.twitter }}">
+    <meta name="twitter:creator" content="@{% if page.twitter-username %}{{ page.twitter-username }}{% else %}{{ site.twitter }}{% endif %}">
+    <meta name="twitter:title" content="{{ page.title | strip_html }}">
+    <meta name="twitter:description" content="{{ news.short-description | strip_html }}">
+    <meta name="twitter:image:src" content="{{ site.url }}/images/noticies/{{ news.featured-img }}">
     {% endif %}
     {% endif %}
 
