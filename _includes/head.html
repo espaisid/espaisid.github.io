@@ -9,7 +9,7 @@
     <title>{% if page.title %}{{ page.title  | strip_html | strip_newlines | truncate: 160 }} | {{ site.title }}{% else %}{{ site.description }} | {{ site.title }}{% endif %}</title>
 
     {% if page.og %}
-    <meta property="og:title" content="{{ page.title }}" />
+    <meta property="og:title" content="{{ page.title | strip_html | strip_newlines | truncate: 160 }}" />
     <meta property="og:type" content="{{ page.og-type }}" />
     <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
     {% if page.categories contains 'portfoli' %}
