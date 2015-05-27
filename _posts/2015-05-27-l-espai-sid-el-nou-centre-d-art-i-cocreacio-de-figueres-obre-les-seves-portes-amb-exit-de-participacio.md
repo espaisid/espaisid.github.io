@@ -4,6 +4,7 @@ og: true
 og-type: article
 title: "L'<span class='light'>#Espai</span>SID, el nou centre d'art i cocreació de Figueres, obre les seves portes amb èxit de participació" 
 share: true
+video: true
 class: artwork
 categories:
  - noticiessid
