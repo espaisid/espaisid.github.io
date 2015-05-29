@@ -15,6 +15,7 @@
     {% if page.categories contains 'portfoli' %}
     {% assign work_data = site.data.portfoli | where:"id", page.work %}
     {% assign work = work_data | first %}
+    {% if page.video %}<meta property="og:video" content="{{ work.video-url }}" />{% endif %}
     <meta property="og:image" content="{{ site.url }}/images/{{ work.featured-img }}" />
     <meta property="og:description" content="{{ work.long_description | strip_html }}" />
 
@@ -28,6 +29,7 @@
     {% if page.categories contains 'exposicionssid' %}
     {% assign expo_data = site.data.activitats.exposicions | where:"id", page.expo %}
     {% assign expo = expo_data | first %}
+    {% if page.video %}<meta property="og:video" content="{{ expo.video-url }}" />{% endif %}
     <meta property="og:image" content="{{ site.url }}/images/exposicions/{{ expo.featured-img }}" />
     <meta property="og:description" content="{{ expo.long_description | strip_html }}" />
 
@@ -41,7 +43,8 @@
     {% if page.categories contains 'capsulessid' %}
     {% assign capsula_data = site.data.activitats.capsules | where:"id", page.capsula %}
     {% assign capsula = capsula_data | first %}
-    {% if page.video %}<meta property="og:video" content="{{ capsula.video-url }}" />{% else %}<meta property="og:image" content="{{ site.url }}/images/capsules/{{ capsula.featured-img }}" />{% endif %}
+    {% if page.video %}<meta property="og:video" content="{{ capsula.video-url }}" />{% endif %}
+    <meta property="og:image" content="{{ site.url }}/images/capsules/{{ capsula.featured-img }}" />
     <meta property="og:description" content="{{ capsula.long_description | strip_html }}" />
 
     <meta name="twitter:card" content="summary_large_image">
@@ -54,7 +57,8 @@
     {% if page.categories contains 'noticiessid' %}
     {% assign news_data = site.data.activitats.noticies | where:"id", page.news %}
     {% assign news = news_data | first %}
-    {% if page.video %}<meta property="og:video" content="{{ news.video-url }}" />{% else %}<meta property="og:image" content="{{ site.url }}/images/noticies/{{ news.featured-img }}" />{% endif %}
+    {% if page.video %}<meta property="og:video" content="{{ news.video-url }}" />{% endif %}
+    <meta property="og:image" content="{{ site.url }}/images/noticies/{{ news.featured-img }}" />
     <meta property="og:description" content="{{ news.long_description | strip_html }}" />
 
     <meta name="twitter:card" content="summary_large_image">
