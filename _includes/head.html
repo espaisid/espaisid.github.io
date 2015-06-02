@@ -94,16 +94,7 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
     
-   <script>
-        if ('registerElement' in document
-          && 'createShadowRoot' in HTMLElement.prototype
-          && 'import' in document.createElement('link')
-          && 'content' in document.createElement('template')) {
-          
-        } else {
-          document.write('<script src="bower_components/webcomponentsjs/webcomponents.min.js"><\/script>');
-        }
-   </script>
+  <script src="bower_components/webcomponentsjs/webcomponents-lite.min.js"></script>
 
    {% include js-css.html %}
 
