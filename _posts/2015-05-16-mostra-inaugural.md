@@ -32,7 +32,6 @@ Dates: dissabte 16 de maig de 2015
 "Mostra inaugural" va ser una exposició eclèctica i, artísticament, multidisciplinar amb una selecció de sis artistes emergents. Cadascun d'ells va presentar els seus treballs més recents i significatius de les seves trajectòries artístiques. L'exposició anà acompanyada d'un minimercat d'art amb obres dels mateixos artistes.
 
 ---
-{% for data in site.data.activitats.exposicions | where:"id", page.expo %}
 <div class="row">
 	<div class="col-md-offset-1 col-lg-offset-1 col-lg-5 col-md-5">
 		<p><img src="/images/exposicions/{{ expo.images | first }}"></p>
@@ -41,7 +40,6 @@ Dates: dissabte 16 de maig de 2015
 		<p><img src="/images/exposicions/{{ expo.images | last }}"></p>
 	</div>
 </div>
-{% endfor %}
 
 ##Informació addicional
 

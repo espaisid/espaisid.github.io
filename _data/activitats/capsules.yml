@@ -1,6 +1,5 @@
 ---
- -
-  name: "Fab Labs, nous mitjans i la generació de codi obert"
+- name: "Fab Labs, nous mitjans i la generació de codi obert"
   id: 1
   featured-img: "03-fab-labs-nous-mitjans-i-la-generacio-de-codi-obert.jpg"
   aspect-ratio: "16-9"
@@ -9,8 +8,7 @@
    - 02-fab-labs-nous-mitjans-i-la-generacio-de-codi-obert.jpg
   short-description: "'Fab Labs, nous mitjans i la generació de codi obert', a càrrec d'Anastasia Pistofidou"
   long-description: "<p>'Fab Labs, nous mitjans i la generació de codi obert' consistí d’una introducció a l’escaneig i impressió 3D i les seves aplicacions en la producció i en la creació artística. Es va aprendre com funciona la tecnologia d’impressió 3D, els diferents projectes i màquines que existeixen i quina d’elles és la més adequada per a cada projecte.</p>\n"
- -
-  name: "WordPress per a artistes"
+- name: "WordPress per a artistes"
   id: 2
   featured-img: "03-fab-labs-nous-mitjans-i-la-generacio-de-codi-obert.jpg"
   aspect-ratio: "16-9"

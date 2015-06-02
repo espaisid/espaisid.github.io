@@ -32,7 +32,6 @@ Dates: dissabte 16 de maig de 2015
 "Fab Labs, nous mitjans i la generació de codi obert" consistí d’una introducció a l’escaneig i impressió 3D i les seves aplicacions en la producció i en la creació artística. Es va aprendre com funciona la tecnologia d’impressió 3D, els diferents projectes i màquines que existeixen i quina d’elles és la més adequada per a cada projecte.
 
 ---
-{% for data in site.data.activitats.capsules | where:"id", page.capsula %}
 <div class="row">
 	<div class="col-md-offset-1 col-lg-offset-1 col-lg-5 col-md-5">
 		<p><img src="/images/capsules/{{ capsula.images | first }}"></p>
@@ -41,7 +40,6 @@ Dates: dissabte 16 de maig de 2015
 		<p><img src="/images/capsules/{{ capsula.images | last }}"></p>
 	</div>
 </div>
-{% endfor %}
 
 ##Informació addicional
 
