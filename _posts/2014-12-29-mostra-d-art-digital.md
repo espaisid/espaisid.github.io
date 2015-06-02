@@ -15,7 +15,7 @@ work: 1
 <figure>
 	<div class="padding-artwork-container">
 		<div class="embed-container embed-container_9-16">
-			<core-image sizing="cover" class="core-image-size" preload fade src="/images/{{ work.featured-img }}"></core-image>	
+			<iron-image sizing="cover" class="iron-image-size" preload fade src="/images/{{ work.featured-img }}"></iron-image>	
 		</div>
 	</div>
 	<figcaption>

@@ -9,6 +9,8 @@ layout: compress
 
 <body unresolved id="page-top" data-spy="scroll" data-target=".navbar-fixed-top" {% if page.category == 'mur-diari' %}class="mur-diari"{% endif %}>
 
+<template is="dom-bind" id="app">
+
     {% include header.html %}
     {% include about.html %}
     {% include filosofia.html %}
@@ -20,6 +22,25 @@ layout: compress
     {% include footer.html %}
     {% include aside.html %}
     {% include modals.html %}
+
+    <paper-toast id="caching-complete"
+                 duration="6000"
+                 text="Caching complete! This app will work offline.">
+    </paper-toast>
+
+    <platinum-sw-register auto-register
+                          clients-claim
+                          skip-waiting
+                          on-service-worker-installed="displayInstalledToast">
+      <platinum-sw-cache default-cache-strategy="networkFirst"
+                         precache-file="/precache.json">
+      </platinum-sw-cache>
+    </platinum-sw-register>
+
+</template>
+
+
+    <script src="/scripts/app.js"></script>
 
 </body>
 

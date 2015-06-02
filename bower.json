@@ -1,0 +1,32 @@
+{
+  "name": "espaisid.github.io.polymer",
+  "version": "0.0.0",
+  "homepage": "https://github.com/espaisid/espaisid.github.io",
+  "authors": [
+    "freecates <ramongil@ramongil.cat>"
+  ],
+  "description": "El web de l'EspaiSID amb polymer 1.0",
+  "main": "index.html",
+  "keywords": [
+    "art",
+    "figueres",
+    "espai",
+    "creació",
+    "polymer"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.0.0",
+    "google-map": "GoogleWebComponents/google-map#^1.0.0",
+    "iron-image": "PolymerElements/iron-image#^1.0.0",
+    "paper-toast": "PolymerElements/paper-toast#^1.0.0",
+    "platinum-sw": "PolymerElements/platinum-sw#~1.0.0"
+  }
+}

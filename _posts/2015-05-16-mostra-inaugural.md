@@ -15,7 +15,7 @@ expo: 1
 <figure>
 	<div class="padding-artwork-container">
 		<div class="embed-container embed-container_{{ expo.aspect-ratio }}">
-			<core-image sizing="cover" class="core-image-size" preload fade src="/images/exposicions/{{ expo.featured-img }}"></core-image>	
+			<iron-image sizing="cover" class="iron-image-size" preload fade src="/images/exposicions/{{ expo.featured-img }}"></iron-image>	
 		</div>
 	</div>
 	<figcaption>
