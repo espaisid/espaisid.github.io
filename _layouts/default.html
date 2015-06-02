@@ -9,8 +9,6 @@ layout: compress
 
 <body unresolved id="page-top" data-spy="scroll" data-target=".navbar-fixed-top" {% if page.category == 'mur-diari' %}class="mur-diari"{% endif %}>
 
-<template is="dom-bind" id="app">
-
     {% include header.html %}
     {% include about.html %}
     {% include filosofia.html %}
@@ -23,9 +21,11 @@ layout: compress
     {% include aside.html %}
     {% include modals.html %}
 
+<template is="dom-bind" id="app">
+
     <paper-toast id="caching-complete"
                  duration="6000"
-                 text="Caching complete! This app will work offline.">
+                 text="Completat l'emmagatzematge en memòria cau! Aquesta aplicació funcionarà offline.">
     </paper-toast>
 
     <platinum-sw-register auto-register
