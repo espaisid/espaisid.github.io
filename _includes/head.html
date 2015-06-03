@@ -93,9 +93,17 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-    
-  <script src="bower_components/webcomponentsjs/webcomponents-lite.min.js"></script>
 
+    <script>
+        if ('registerElement' in document
+          && 'createShadowRoot' in HTMLElement.prototype
+          && 'import' in document.createElement('link')
+          && 'content' in document.createElement('template')) {
+          
+        } else {
+          document.write('<script src="/bower_components/webcomponentsjs/webcomponents-lite.min.js"><\/script>');
+        }
+   </script>
    {% include js-css.html %}
 
 </head>
