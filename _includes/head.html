@@ -17,7 +17,7 @@
     {% assign work = work_data | first %}
     {% if page.video %}<meta property="og:video" content="{{ work.video-url }}" />{% endif %}
     <meta property="og:image" content="{{ site.url }}/images/{{ work.featured-img }}" />
-    <meta property="og:description" content="{{ work.long_description | strip_html }}" />
+    <meta property="og:description" content="{{ work.long-description | strip_html | strip_newlines | truncate: 160 }}" />
 
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@{{ site.twitter }}">
@@ -31,7 +31,7 @@
     {% assign expo = expo_data | first %}
     {% if page.video %}<meta property="og:video" content="{{ expo.video-url }}" />{% endif %}
     <meta property="og:image" content="{{ site.url }}/images/exposicions/{{ expo.featured-img }}" />
-    <meta property="og:description" content="{{ expo.long_description | strip_html }}" />
+    <meta property="og:description" content="{{ expo.long-description | strip_html | strip_newlines | truncate: 160 }}" />
 
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@{{ site.twitter }}">
@@ -45,7 +45,7 @@
     {% assign capsula = capsula_data | first %}
     {% if page.video %}<meta property="og:video" content="{{ capsula.video-url }}" />{% endif %}
     <meta property="og:image" content="{{ site.url }}/images/capsules/{{ capsula.featured-img }}" />
-    <meta property="og:description" content="{{ capsula.long_description | strip_html }}" />
+    <meta property="og:description" content="{{ capsula.long-description | strip_html | strip_newlines | truncate: 160 }}" />
 
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@{{ site.twitter }}">
@@ -59,7 +59,7 @@
     {% assign news = news_data | first %}
     {% if page.video %}<meta property="og:video" content="{{ news.video-url }}" />{% endif %}
     <meta property="og:image" content="{{ site.url }}/images/noticies/{{ news.featured-img }}" />
-    <meta property="og:description" content="{{ news.long_description | strip_html }}" />
+    <meta property="og:description" content="{{ news.long-description | strip_html }}" />
 
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@{{ site.twitter }}">

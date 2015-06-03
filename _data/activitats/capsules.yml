@@ -10,10 +10,10 @@
   long-description: "<p>'Fab Labs, nous mitjans i la generació de codi obert' consistí d’una introducció a l’escaneig i impressió 3D i les seves aplicacions en la producció i en la creació artística. Es va aprendre com funciona la tecnologia d’impressió 3D, els diferents projectes i màquines que existeixen i quina d’elles és la més adequada per a cada projecte.</p>\n"
 - name: "WordPress per a artistes"
   id: 2
-  featured-img: "03-fab-labs-nous-mitjans-i-la-generacio-de-codi-obert.jpg"
+  featured-img: "01-wordpress-per-a-artistes.jpg"
   aspect-ratio: "16-9"
   images:
-   - 01-fab-labs-nous-mitjans-i-la-generacio-de-codi-obert.jpg
-   - 02-fab-labs-nous-mitjans-i-la-generacio-de-codi-obert.jpg
+   - 02-wordpress-per-a-artistes.jpg
+   - 03-wordpress-per-a-artistes.jpg
   short-description: "'WordPress per a artistes', a càrrec de Ramon Gil"
-  long-description: "<p>La Iª Mostra simultània d’art digital de Barcelona es presenta com una exposició simultània en diferents espais i edificis de referència de la ciutat. L’objectiu d’aquesta mostra es oferir al públic la possibilitat de descobrir i gaudir de l’art digital fora dels circuits expositius tradicionals. Oci, cultura i patrimoni es fusionen per oferir una experiència entorn l’Art Digital.</p>\n<p>La finalitat d’aquesta mostra es divulgar la disciplina artística digital alhora que projectar i promocionar el treball de diferents artistes. Per aquesta finalitat s’han escollit nous espais i formats expositius. Artinpocket conjuntament amb el Convent de Sant Agustí i amb la col·laboració de IDODI i Blanz, han reunit més de 20 creadors d’art digital per realitzar aquesta primera exhibició.</p>\n"
+  long-description: "<p>Taller pràctic sobre com crear un lloc web basat en la plataforma WordPress. El taller té 3 blocs. Primer, breu introducció a Internet i la Web com plataforma de difusió de l'obra d'un artista. Segon, 'WordPress.com', com a solució gratuïta de tenir un web fàcil de crear i mantenir. Tercer, la plataforma WordPress personalitzada: web amb domini propi, plantilla professional i gestió i manteniment de plugins.</p>\n"
