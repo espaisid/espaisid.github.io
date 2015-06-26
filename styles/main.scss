@@ -181,11 +181,16 @@ hr {
     max-width: 35rem;
   }
 }
-@media (min-width: 56rem) {
-  .container {
-    max-width: 49rem;
-  }
-}
+@media (min-width: 60rem) {
+   .container {
+     max-width: 51rem;
+   }
+ }
+@media (min-width: 64rem) {
+   .container {
+     max-width: 55rem;
+   }
+ }
 @media (min-width: 68rem) {
   body.mur .container, body.mur-diari .container, body.artwork .container, .container.donatius {
     max-width: 59rem;
@@ -499,7 +504,7 @@ figure img {
     float:left;
     margin: .25rem;
   }
-  body.mur-diari .post:nth-child(2n+1) {
+  body.mur-diari .post:nth-child(2n) {
     clear:both;
   }  
   h1, figure {
@@ -519,10 +524,10 @@ figure img {
     font-size: 3rem;
   }
 }
-@media (min-width: 56rem) {
-  body.mur-diari .post {
-    width: 24rem;
-  }
+ @media (min-width: 60rem) {
+   body.mur-diari .post {
+     width: 17rem;
+   }
   h1, figure {
     margin-left: -2rem;
     margin-right: -2rem;
@@ -530,6 +535,11 @@ figure img {
   h1 {
     font-size: 4rem;
   }
+}
+ @media (min-width: 64rem) {
+   body.mur-diari .post {
+     width: 22rem;
+   }
 }
 @media (min-width: 68rem) {
   body.mur-diari .post {
