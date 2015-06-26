@@ -445,6 +445,17 @@ figure{
   color: #000000;
   box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24);
 }
+figure {
+  -webkit-transition: box-shadow .5s ease-in-out;
+     -moz-transition:    box-shadow .5s ease-in-out;
+      -ms-transition:     box-shadow .5s ease-in-out;
+       -o-transition:      box-shadow .5s ease-in-out;
+          transition:         box-shadow .5s ease-in-out;
+  }
+figure:hover, figure:focus {
+  box-shadow: 0 22px 25px 0 rgba(0, 0, 0, 0.24);
+  }
+
 figure img {
   display: inline;
   background: #ffffff;
