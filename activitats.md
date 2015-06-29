@@ -10,7 +10,9 @@ category: mur-diari
   {% for post in site.categories['capsulessid'] limit:4 %}
   <div class="post">
 
-    {{ post.excerpt }}    
+    {{ post.excerpt }}   
+
+    <br/> 
 
   <h2 class="post-title">
       <a href="{{ post.url }}">
@@ -25,7 +27,9 @@ category: mur-diari
   <h2><span class='light'>#Exposicions</span>SID</h2>
   {% for post in site.categories['exposicionssid'] limit:4 %}
   <div class="post">
-    {{ post.excerpt }}    
+    {{ post.excerpt }} 
+
+    <br/>   
 
   <h2 class="post-title">
       <a href="{{ post.url }}">
@@ -41,7 +45,9 @@ category: mur-diari
   {% for post in site.categories['noticiessid'] limit:4 %}
   <div class="post">
 
-    {{ post.excerpt }}    
+    {{ post.excerpt }}
+
+    <br/>    
 
   <h2 class="post-title">
       <a href="{{ post.url }}">

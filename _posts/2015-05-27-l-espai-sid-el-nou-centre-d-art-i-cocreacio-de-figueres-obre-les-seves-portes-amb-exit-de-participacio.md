@@ -25,6 +25,7 @@ news: 1
 </figure>
 
 <!--more-->
+<br/>
 
 El nou <span class='light'>#Espai</span>SID de Figueres es va presentar ahir amb una sèrie d'actes que van deixar entreveure la intenció del que vol ser l'espai, un lloc de referència per a creatius de la comarca on es duran a terme càpsules formatives, presentacions i exposicions temporals al llarg de l'any. L'espai s'adapta a les necessitats dels artistes i també s'ofereix en la modalitat de coworking per aquells creatius que necessitin puntualment un espai de residència. S'omple així un buit a la ciutat, que no oferia encara cap espai d'aquestes característiques.
 

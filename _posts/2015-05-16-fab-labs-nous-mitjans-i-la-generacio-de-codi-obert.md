@@ -13,17 +13,20 @@ capsula: 1
 {% assign capsula_data = site.data.activitats.capsules | where:"id", page.capsula %}
 {% assign capsula = capsula_data | first %}
 <figure>
-	<div class="padding-artwork-container">
-		<div class="embed-container embed-container_{{ capsula.aspect-ratio }}">
-			<iron-image sizing="cover" class="iron-image-size" preload fade src="/images/capsules/{{ capsula.featured-img }}"></iron-image>	
+	<a href="{{ page.url }}">
+		<div class="padding-artwork-container">
+			<div class="embed-container embed-container_{{ capsula.aspect-ratio }}">
+				<iron-image sizing="cover" class="iron-image-size" preload fade src="/images/capsules/{{ capsula.featured-img }}"></iron-image>	
+			</div>
 		</div>
-	</div>
+	</a>
 	<figcaption>
 		<p>{% if capsula.external-url %}<a href="{{ capsula.external-url }}"><small><i class="fa fa-external-link"></i> <strong>{{ capsula.name }}</strong></small></a>{% else if %}<small><strong>{{ capsula.name }}</strong></small>{% endif %}</p>
 	</figcaption>
 </figure>
 
 <!--more-->
+<br/>
 
 "Fab Labs, nous mitjans i la generació de codi obert", a càrrec d'Anastasia Pistofidou.
 

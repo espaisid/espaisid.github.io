@@ -13,17 +13,20 @@ expo: 1
 {% assign expo_data = site.data.activitats.exposicions | where:"id", page.expo %}
 {% assign expo = expo_data | first %}
 <figure>
-	<div class="padding-artwork-container">
-		<div class="embed-container embed-container_{{ expo.aspect-ratio }}">
-			<iron-image sizing="cover" class="iron-image-size" preload fade src="/images/exposicions/{{ expo.featured-img }}"></iron-image>	
+	<a href="{{ page.url }}">
+		<div class="padding-artwork-container">
+			<div class="embed-container embed-container_{{ expo.aspect-ratio }}">
+				<iron-image sizing="cover" class="iron-image-size" preload fade src="/images/exposicions/{{ expo.featured-img }}"></iron-image>	
+			</div>
 		</div>
-	</div>
+	</a>
 	<figcaption>
 		<p>{% if expo.external-url %}<a href="{{ expo.external-url }}"><small><i class="fa fa-external-link"></i> <strong>{{ expo.name }}</strong></small></a>{% else if %}<small><strong>{{ expo.name }}</strong></small>{% endif %}</p>
 	</figcaption>
 </figure>
 
 <!--more-->
+<br/>
 
 "Mostra inaugural", amb la participació artística de Maria Bartrons, Alba Danés, La Wäwä, Xevi Masmitjà, Roger Serrat-Calvó i Mònica Quintana.
 
