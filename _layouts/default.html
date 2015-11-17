@@ -32,8 +32,7 @@ layout: compress
                           clients-claim
                           skip-waiting
                           on-service-worker-installed="displayInstalledToast">
-      <platinum-sw-cache default-cache-strategy="networkFirst"
-                         precache-file="/precache.json">
+      <platinum-sw-cache default-cache-strategy="fastest">
       </platinum-sw-cache>
     </platinum-sw-register>
 
