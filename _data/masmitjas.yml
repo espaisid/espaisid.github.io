@@ -1,0 +1,81 @@
+---
+  - 
+    title: "Núm.1. Xevi Masmitjà (2015)"
+    id: 5740
+    created_at: "2015-05-08T12:13:10Z"
+    updated_at: "2015-05-08T12:14:00Z"
+    type: "simple"
+    status: "publish"
+    downloadable: false
+    virtual: false
+    permalink: "http://www.artinpocket.cat/tienda/num-1-xevi-masmitja-2015/"
+    sku: "O052"
+    price: "120.00"
+    regular_price: "120.00"
+    sale_price: null
+    price_html: "<span class=\"amount\">120,00&euro;</span>"
+    taxable: true
+    tax_status: "taxable"
+    tax_class: ""
+    managing_stock: true
+    stock_quantity: 1
+    in_stock: true
+    backorders_allowed: false
+    backordered: false
+    sold_individually: true
+    purchaseable: true
+    featured: false
+    visible: true
+    catalog_visibility: "visible"
+    on_sale: false
+    product_url: ""
+    button_text: ""
+    weight: null
+    dimensions: 
+      length: "16"
+      width: "16"
+      height: "16"
+      unit: "cm"
+    shipping_required: true
+    shipping_taxable: true
+    shipping_class: "transport"
+    shipping_class_id: 71
+    description: "<div>\n<p>Xevi Masmitjà aborda la pintura amb un punt de vista informalista i experimental. Des d’una abstracció calculada i a través del gest i del moviment, crea obres que recorden paisatges deslocalitzats, construïdes a partir de trames superposades i en una constant investigació de tècniques i formes d’acció envers la superfície o el volum.</p>\n</div>\n<div><span class=\"\"> </span></div>\n<div></div>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n<p><span style=\"line-height: 1.5;\"> </span></p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n<p><span style=\"line-height: 1.5;\"> </span></p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n"
+    short_description: ""
+    reviews_allowed: true
+    average_rating: "5.00"
+    rating_count: 1
+    related_ids: 
+      - 2260
+      - 2270
+      - 2272
+      - 2300
+      - 2286
+    upsell_ids: []
+    cross_sell_ids: []
+    parent_id: 0
+    categories: 
+      - "-ANALÓGICO"
+      - "Dibujo"
+      - "Pintura"
+    tags: 
+      - "Xevi Masmitjà"
+    images: 
+      - 
+        id: 5741
+        created_at: "2015-05-08T12:13:48Z"
+        updated_at: "2015-05-08T12:13:48Z"
+        src: "http://www.artinpocket.cat/wp-content/uploads/2015/05/num.1-16x16cm-120€.jpg"
+        title: "num.1, 16x16cm, 120€"
+        alt: ""
+        position: 0
+    featured_src: "http://www.artinpocket.cat/wp-content/uploads/2015/05/num.1-16x16cm-120€.jpg"
+    attributes: []
+    downloads: []
+    download_limit: 0
+    download_expiry: 0
+    download_type: ""
+    purchase_note: ""
+    total_sales: 0
+    variations: []
+    parent: []
